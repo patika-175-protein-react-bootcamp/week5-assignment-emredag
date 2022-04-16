@@ -1,0 +1,12 @@
+.rightSide {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.leftSide {
+  height: 100vh;
+  position: fixed;
+}

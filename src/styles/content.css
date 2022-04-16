@@ -1,0 +1,140 @@
+.rightSide {
+  width: 50%;
+  background: #f3f3f3;
+  justify-content: center;
+}
+
+.rightContainer {
+  margin-top: 6rem;
+}
+
+.rightTitle {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #3c3c3c;
+}
+
+.stick {
+  height: 0px;
+  width: 100px;
+  left: 0px;
+  top: 77px;
+  border: 4px solid #444aff;
+  margin-top: 1rem;
+}
+
+.allInput {
+  background-color: transparent;
+  border: 2px solid #8e8e8e;
+  border-radius: 6px;
+  color: #000;
+  font-size: 1.7rem;
+  height: 5rem;
+  letter-spacing: 0.15px;
+  outline: none;
+  width: 100%;
+}
+
+.allInput::placeholder {
+  padding-left: 1rem;
+}
+
+.inputTitle {
+  font-family: "Oxygen";
+  font-style: normal;
+  color: #3c3c3c;
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+}
+
+.errorMsg {
+  color: #ee6356;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.checkBox .errorMsg {
+  margin: 0;
+}
+
+.checkLabel {
+  color: #8e8e8e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 18px;
+  margin-right: 1rem;
+}
+
+.submitBtn {
+  background-color: #444aff;
+  border: 0;
+  border-radius: 4px;
+  color: #f0f0f0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  height: 56px;
+  letter-spacing: 1.25px;
+  line-height: 18px;
+  margin-bottom: 51px;
+  text-align: center;
+  width: 100%;
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+}
+
+.checkBox input {
+  height: 24px;
+  margin-right: 8px;
+  width: 24px;
+}
+
+.required {
+  color: #ee6356;
+}
+
+.names {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.surNameInput {
+  padding-left: 2rem;
+}
+
+.inputContainers {
+  margin-top: 2rem;
+}
+
+.themeIcon {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+}
+
+/* Dark Styles */
+.darkStick {
+  border-color: #ffbf5e;
+}
+.darkSubmitColor {
+  background-color: #ffbf5e;
+}
+.darkBackground {
+  background-color: #2c2c2c;
+}
+.darkThemeColor {
+  color: #fefefe;
+}
+/* *********** */
